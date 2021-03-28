@@ -1,0 +1,41 @@
+.border {
+  border: 1px solid #eeeeee;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.progects__section {
+  margin-top: 40px;
+  padding-bottom: 94px;
+}
+
+.progect__conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: block;
+}
+
+.progects__ul > .progects__li {
+  text-align: center;
+}
+
+.progects__ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  //
+  @extend %centeredFlex;
+  margin-bottom: 50px;
+}
+
+.progects__ul > .progects__li {
+  flex-wrap: wrap;
+  margin-right: 8px;
+  display: inline-block;
+
+  padding-bottom: 0;
+}

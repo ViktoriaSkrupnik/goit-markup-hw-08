@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  border: 1px solid transparent;
+  color: $white-text;
+}
+
+ul {
+  list-style: none;
+}

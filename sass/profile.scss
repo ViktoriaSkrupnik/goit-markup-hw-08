@@ -1,0 +1,11 @@
+@import './utils/variables';
+@import './utils/placeholders';
+@import './components/body';
+@import './components/page-header';
+@import './components/product-thumb';
+@import './components/progects';
+@import './components/progects-sampie';
+@import './components/footer';
+@import './components/form';
+
+@extend %centeredFlex;

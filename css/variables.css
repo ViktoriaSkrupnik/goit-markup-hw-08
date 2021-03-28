@@ -1,0 +1,16 @@
+:root {
+  --textaria-text: rgba(117, 117, 117, 0.5);
+  --modal-text: rgba(117,117,117,1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --grey-text01: rgba(117, 117, 117, 1);
+  --grafite: rgba(47, 48, 58, 1);
+  --adress-text: rgba(255, 255, 255, 0.6);
+  --nav-text: rgba(33, 33, 33, 1);
+  --button: rgba(245, 244, 250, 1);
+  --text-a: rgba(175, 177, 184, 1);
+  --logo-footer: rgba(255, 255, 255, 0.1);
+  --border: rgba(238, 238, 238, 1);
+  --backdrop: rgba(0, 0, 0, 0.2);
+  --cubic: rgba(0.4, 0, 0.2, 1);
+}
