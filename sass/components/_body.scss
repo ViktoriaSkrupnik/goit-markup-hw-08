@@ -13,7 +13,7 @@ body {
   letter-spacing: 0.03em;
   font-family: Roboto, sans-serif;
   margin: 0;
-  border: 1px solid transparent;
+  // border: 1px solid transparent;
   color: $white-text;
 }
 
@@ -35,4 +35,16 @@ ul {
     @media screen and(min-width:1200px) {
       min-width: 1200px;
     }
+  }
+  .visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0000);
+    overflow: hidden;
   }

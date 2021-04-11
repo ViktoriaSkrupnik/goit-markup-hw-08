@@ -1,78 +1,78 @@
-.conteiner {
-  min-width: 320px;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  @media screen and(min-width:768px) {
-    min-width: 768px;
-  }
-  @media screen and(min-width:1200px) {
-    min-width: 1200px;
-  }
-}
-
-// .header {
-//   border-bottom: 1px solid #eeeeee;
-//   min-height: 80px;
-// }
-
-// .header__nav,
-// .header__navigation,
-// .conteiner,
-// .header__menu {
-//   display: flex;
-// }
-
-// .header__navigation,
-// .header__contact {
-//   display: none;
-// }
-
-// .header__web {
-//   padding-top: 24px;
-//   padding-left: 8px;
-//   padding-bottom: 25px;
-//   display: block;
-
-//   font-family: Raleway, sans-serif;
-//   font-style: normal;
-//   font-size: 26px;
-//   line-height: 1.19;
-//   letter-spacing: 0.03em;
-//   color: $blue-text;
-//   text-decoration: none;
-// }
-
-// .header__logo {
-//   padding-top: 24px;
-//   padding-bottom: 25px;
-//   display: block;
-
-//   font-family: Raleway, sans-serif;
-//   font-style: normal;
-//   font-size: 26px;
-//   line-height: 1.19;
-//   letter-spacing: 0.03em;
-//   color: $nav-text;
-//   text-decoration: none;
-// }
-
-// .header__name {
-//   text-decoration: none;
-//   display: flex;
-// }
-
-// .header__menu {
+// .conteiner {
+//   min-width: 320px;
+//   max-width: 480px;
 //   margin-left: auto;
-//   margin-top: 10px;
+//   margin-right: auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
 
-//   &:hover,
-//   &:focus {
-//     fill: $blue-text;
-//     cursor: pointer;
-//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   @media screen and(min-width:768px) {
+//     min-width: 768px;
+//   }
+//   @media screen and(min-width:1200px) {
+//     min-width: 1200px;
 //   }
 // }
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+  min-height: 80px;
+}
+
+.header__nav,
+.header__navigation,
+.conteiner,
+.header__menu {
+  display: flex;
+}
+
+.header__navigation,
+.header__contact {
+  display: none;
+}
+
+.header__web {
+  padding-top: 24px;
+  padding-left: 8px;
+  padding-bottom: 25px;
+  display: block;
+
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $blue-text;
+  text-decoration: none;
+}
+
+.header__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  display: block;
+
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $nav-text;
+  text-decoration: none;
+}
+
+.header__name {
+  text-decoration: none;
+  display: flex;
+}
+
+.header__menu {
+  margin-left: auto;
+  margin-top: 10px;
+
+  &:hover,
+  &:focus {
+    fill: $blue-text;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

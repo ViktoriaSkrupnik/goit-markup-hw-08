@@ -1,0 +1,96 @@
+.team__a {
+    position: relative;
+    text-decoration: none;
+  
+    &:focus,
+    &:hover {
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      cursor: pointer;
+    }
+  }
+  
+  .conteiner__team {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+  }
+  
+  .team__ul > .team__li {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc (100% /3 -30 px);
+  }
+  
+  .team__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  
+  .team__p {
+    margin-bottom: 0;
+  }
+  
+  .team__photo {
+    display: block;
+  }
+  
+  .conteiner__progect .team-ul {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  
+  .progects__sampie {
+    padding: 6px 22px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: $nav-text;
+    background: var(--button);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+    &:hover,
+    &:focus {
+      color: $white-text;
+      background-color: $blue-text;
+      cursor: pointer;
+    }
+  }
+  
+  .team__text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $nav-text;
+    text-decoration: none;
+  }
+  
+  .team__link {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: $grey-text01;
+    text-decoration: none;
+  }
+  
